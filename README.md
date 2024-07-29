@@ -53,8 +53,7 @@ HAL_UART_Transmit(&huart1, (uint8_t*)quaternionStr, strlen(quaternionStr), HAL_M
 
 I'm currently using this program to test the hardware and firmware of [Aerosentinel Argus Navigation Module](https://github.com/yaxsomo/aerosentinel-argus), which features multiple IMUs. The data transmission of fusionned quaternions form my BNO055 have excellent results : 
 
-
-
+![IMU Visualization Final](https://github.com/user-attachments/assets/934b94dc-e057-42d6-b5b0-aa2f25d6c809)
 
 ## **Improvements to make**
 I will add multiple views in the next days, so I can have multiple IMUs streaming data and visualize the drift between each one.
